@@ -1,0 +1,20 @@
+#include <iostream>
+
+int main() {
+
+    double S, v, t, a;
+
+    std::cout << "speed:";
+    std::cin >> v;
+
+    std::cout << "time:";
+    std::cin >> t;
+
+    std::cout << "acceleration:";
+    std::cin >> a;
+
+    S = v * t + (a * (t * t)) / 2;
+    std::cout << "formula for uniformly accelerated motion:" << S;
+
+    return 0;
+}
